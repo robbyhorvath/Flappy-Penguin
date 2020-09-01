@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Flappy Bird</title>
+    <meta name="description" content="Flappy Bird">
+</head>
+
+<body>
+    <div id="score-container">
+        <div id="score">
+            <p><b>Score:</b></p>
+            <p id="scoreCount">0</p>
+        </div>
+    </div>
+    <div id="canvas-container">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+    </div>
+    <div>
+        <p id="instructions">Space to jump, Ctrl+R to restart</p>
+    </div>
+    <style>
+        body {
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #343434;
+            color: white;;
+        }
+        
+        #score-container {
+            text-align: center;
+            width: 100%;
+        }
+
+        #score {
+            display: inline;
+        }
+
+        #canvas-container {
+            width: 100%;
+            text-align: center;
+        }
+
+        #gameCanvas {
+            border: 4px solid black;
+            display: inline;
+            background-color: #464646;
+        }
+        #instructions {
+            text-align: center;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>
