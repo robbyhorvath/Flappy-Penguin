@@ -1,2 +1,2 @@
 # Flappy-Penguin
-Flappy Bird clone done with pure JavaScript and HTML/CSS.
+Flappy Bird clone done with vanilla JavaScript and HTML/CSS.
